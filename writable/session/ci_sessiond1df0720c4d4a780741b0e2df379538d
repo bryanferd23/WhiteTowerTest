@@ -1,1 +1,0 @@
-__ci_last_regenerate|i:1746842908;csrf_test_name|s:32:"f7e61dfa9dd09db0b74552b98dd2c9f2";_ci_previous_url|s:33:"http://localhost:8080/auth/a/show";user|a:3:{s:2:"id";i:5;s:11:"auth_action";s:56:"CodeIgniter\Shield\Authentication\Actions\EmailActivator";s:19:"auth_action_message";s:48:"Check your email to complete account activation.";}

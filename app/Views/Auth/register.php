@@ -1,6 +1,6 @@
 <?= $this->extend(config('Auth')->views['layout']) ?>
 
-<?= $this->section('title') ?><?= lang('Auth.register') ?> <?= $this->endSection() ?>
+<?= $this->section('title') ?>Sign-Up<?= $this->endSection() ?>
 
 <?= $this->section('main') ?>
 

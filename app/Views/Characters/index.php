@@ -61,7 +61,7 @@
             <h4>Characters</h4>
         </div>
         <div class="row">
-            <?php foreach($characters as $index => $character): ?>
+            <?php foreach($characters as $character): ?>
                 <?php 
                     $urlParts = explode('/', rtrim($character['url'], '/')); 
                     $id = end($urlParts);

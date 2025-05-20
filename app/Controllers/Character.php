@@ -40,7 +40,7 @@ class Character extends BaseController
     public function show($id)
     {
         // sanitize the id
-        $id = (int)$id;
+        $id = (int)$id; 
         // Fetch character details from the API
         $apiUrl = "https://swapi.dev/api/people/{$id}/";
         

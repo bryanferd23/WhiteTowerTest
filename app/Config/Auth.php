@@ -41,10 +41,6 @@ class Auth extends ShieldAuth
     public const RECORD_LOGIN_ATTEMPT_ALL     = 2; // Record all login attempts
 
 
-    // map routes
-    public array $routes = [
-        'register' => 'sign-up',
-    ];
     /**
      * --------------------------------------------------------------------
      * View files

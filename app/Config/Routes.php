@@ -15,7 +15,7 @@ $routes->post('sign-up', [RegisterController::class, 'registerAction'] , ['as' =
 
 // routes for character page
 $routes->group('', ['filter' => 'auth'], function($routes) {
-    $routes->get('characters', 'Character::index', ['as' => 'character']);
+    $routes->get('characters', 'Character::index', ['as' => 'character.index']);
     $routes->get('characters/(:num)', 'Character::show/$1', ['as' => 'character.show']);
     $routes->get('user/characters', 'UserCharacter::index', ['as' => 'user.characters']);
     $routes->post('characters/(:num)', 'UserCharacter::create/$1', ['as' => 'user.character.create']);

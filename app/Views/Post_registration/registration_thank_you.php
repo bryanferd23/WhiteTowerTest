@@ -16,7 +16,7 @@
                 </div>
                 <h1 class="h3 mb-3 fw-bold">Thank You for Registering!</h1>
                 <p class="mb-4">Your account has been successfully created. You're all set to begin explore and test the solution.</p>
-                <a href="/characters" class="btn btn-primary w-100">Get Started!</a>
+                <a href="<?= url_to('character.index') ?>" class="btn btn-primary w-100">Get Started!</a>
             </div>
         </div>
     </div>
